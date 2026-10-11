@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class FrmBuses
+Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -28,8 +28,8 @@ Partial Class FrmBuses
         lblBus2 = New Label()
         lblBus3 = New Label()
         pbBus1 = New ProgressBar()
-        ProgressBar2 = New ProgressBar()
-        ProgressBar3 = New ProgressBar()
+        pbBus2 = New ProgressBar()
+        pbBus3 = New ProgressBar()
         lblEstado1 = New Label()
         lblEstado2 = New Label()
         lblEstado3 = New Label()
@@ -44,70 +44,78 @@ Partial Class FrmBuses
         lblTitulo.AutoSize = True
         lblTitulo.Font = New Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblTitulo.ForeColor = Color.DarkBlue
-        lblTitulo.Location = New Point(26, 23)
+        lblTitulo.Location = New Point(18, 14)
+        lblTitulo.Margin = New Padding(2, 0, 2, 0)
         lblTitulo.Name = "lblTitulo"
-        lblTitulo.Size = New Size(249, 25)
+        lblTitulo.Size = New Size(164, 15)
         lblTitulo.TabIndex = 0
         lblTitulo.Text = "Managua → Estelí · 150 km"
         ' 
         ' lblBus1
         ' 
         lblBus1.AutoSize = True
-        lblBus1.Location = New Point(58, 73)
+        lblBus1.Location = New Point(41, 44)
+        lblBus1.Margin = New Padding(2, 0, 2, 0)
         lblBus1.Name = "lblBus1"
-        lblBus1.Size = New Size(55, 25)
+        lblBus1.Size = New Size(35, 15)
         lblBus1.TabIndex = 1
         lblBus1.Text = "Bus 1"
         ' 
         ' lblBus2
         ' 
         lblBus2.AutoSize = True
-        lblBus2.Location = New Point(58, 168)
+        lblBus2.Location = New Point(41, 101)
+        lblBus2.Margin = New Padding(2, 0, 2, 0)
         lblBus2.Name = "lblBus2"
-        lblBus2.Size = New Size(55, 25)
+        lblBus2.Size = New Size(35, 15)
         lblBus2.TabIndex = 2
         lblBus2.Text = "Bus 2"
         ' 
         ' lblBus3
         ' 
         lblBus3.AutoSize = True
-        lblBus3.Location = New Point(58, 267)
+        lblBus3.Location = New Point(41, 160)
+        lblBus3.Margin = New Padding(2, 0, 2, 0)
         lblBus3.Name = "lblBus3"
-        lblBus3.Size = New Size(55, 25)
+        lblBus3.Size = New Size(35, 15)
         lblBus3.TabIndex = 3
         lblBus3.Text = "Bus 3"
         ' 
         ' pbBus1
         ' 
-        pbBus1.Location = New Point(58, 101)
+        pbBus1.Location = New Point(41, 61)
+        pbBus1.Margin = New Padding(2, 2, 2, 2)
         pbBus1.Maximum = 150
         pbBus1.Name = "pbBus1"
-        pbBus1.Size = New Size(445, 34)
+        pbBus1.Size = New Size(312, 20)
         pbBus1.TabIndex = 4
         ' 
-        ' ProgressBar2
+        ' pbBus2
         ' 
-        ProgressBar2.Location = New Point(58, 196)
-        ProgressBar2.Maximum = 150
-        ProgressBar2.Name = "ProgressBar2"
-        ProgressBar2.Size = New Size(445, 34)
-        ProgressBar2.TabIndex = 4
+        pbBus2.Location = New Point(41, 118)
+        pbBus2.Margin = New Padding(2, 2, 2, 2)
+        pbBus2.Maximum = 150
+        pbBus2.Name = "pbBus2"
+        pbBus2.Size = New Size(312, 20)
+        pbBus2.TabIndex = 4
         ' 
-        ' ProgressBar3
+        ' pbBus3
         ' 
-        ProgressBar3.Location = New Point(58, 295)
-        ProgressBar3.Maximum = 150
-        ProgressBar3.Name = "ProgressBar3"
-        ProgressBar3.Size = New Size(445, 34)
-        ProgressBar3.TabIndex = 6
+        pbBus3.Location = New Point(41, 177)
+        pbBus3.Margin = New Padding(2, 2, 2, 2)
+        pbBus3.Maximum = 150
+        pbBus3.Name = "pbBus3"
+        pbBus3.Size = New Size(312, 20)
+        pbBus3.TabIndex = 6
         ' 
         ' lblEstado1
         ' 
         lblEstado1.AutoSize = True
         lblEstado1.Enabled = False
-        lblEstado1.Location = New Point(538, 110)
+        lblEstado1.Location = New Point(377, 66)
+        lblEstado1.Margin = New Padding(2, 0, 2, 0)
         lblEstado1.Name = "lblEstado1"
-        lblEstado1.Size = New Size(225, 25)
+        lblEstado1.Size = New Size(150, 15)
         lblEstado1.TabIndex = 7
         lblEstado1.Text = "Background, WaitSleepJoin"
         ' 
@@ -115,9 +123,10 @@ Partial Class FrmBuses
         ' 
         lblEstado2.AutoSize = True
         lblEstado2.Enabled = False
-        lblEstado2.Location = New Point(538, 205)
+        lblEstado2.Location = New Point(377, 123)
+        lblEstado2.Margin = New Padding(2, 0, 2, 0)
         lblEstado2.Name = "lblEstado2"
-        lblEstado2.Size = New Size(225, 25)
+        lblEstado2.Size = New Size(150, 15)
         lblEstado2.TabIndex = 8
         lblEstado2.Text = "Background, WaitSleepJoin"
         ' 
@@ -125,18 +134,20 @@ Partial Class FrmBuses
         ' 
         lblEstado3.AutoSize = True
         lblEstado3.Enabled = False
-        lblEstado3.Location = New Point(538, 304)
+        lblEstado3.Location = New Point(377, 182)
+        lblEstado3.Margin = New Padding(2, 0, 2, 0)
         lblEstado3.Name = "lblEstado3"
-        lblEstado3.Size = New Size(107, 25)
+        lblEstado3.Size = New Size(71, 15)
         lblEstado3.TabIndex = 9
         lblEstado3.Text = "Background"
         ' 
         ' lblGanador
         ' 
         lblGanador.AutoSize = True
-        lblGanador.Location = New Point(332, 420)
+        lblGanador.Location = New Point(232, 252)
+        lblGanador.Margin = New Padding(2, 0, 2, 0)
         lblGanador.Name = "lblGanador"
-        lblGanador.Size = New Size(107, 25)
+        lblGanador.Size = New Size(70, 15)
         lblGanador.TabIndex = 10
         lblGanador.Text = "Ganador: —"
         lblGanador.TextAlign = ContentAlignment.MiddleCenter
@@ -144,9 +155,10 @@ Partial Class FrmBuses
         ' btnIniciar
         ' 
         btnIniciar.BackColor = SystemColors.GradientActiveCaption
-        btnIniciar.Location = New Point(516, 501)
+        btnIniciar.Location = New Point(361, 301)
+        btnIniciar.Margin = New Padding(2, 2, 2, 2)
         btnIniciar.Name = "btnIniciar"
-        btnIniciar.Size = New Size(129, 34)
+        btnIniciar.Size = New Size(90, 31)
         btnIniciar.TabIndex = 11
         btnIniciar.Text = "Iniciar carrera"
         btnIniciar.UseVisualStyleBackColor = False
@@ -154,31 +166,33 @@ Partial Class FrmBuses
         ' btnSalir
         ' 
         btnSalir.BackColor = Color.LightCoral
-        btnSalir.Location = New Point(651, 501)
+        btnSalir.Location = New Point(456, 301)
+        btnSalir.Margin = New Padding(2, 2, 2, 2)
         btnSalir.Name = "btnSalir"
-        btnSalir.Size = New Size(112, 34)
+        btnSalir.Size = New Size(78, 31)
         btnSalir.TabIndex = 12
         btnSalir.Text = "Salir"
         btnSalir.UseVisualStyleBackColor = False
         ' 
         ' FrmBuses
         ' 
-        AutoScaleDimensions = New SizeF(10F, 25F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(800, 560)
+        ClientSize = New Size(564, 343)
         Controls.Add(btnSalir)
         Controls.Add(btnIniciar)
         Controls.Add(lblGanador)
         Controls.Add(lblEstado3)
         Controls.Add(lblEstado2)
         Controls.Add(lblEstado1)
-        Controls.Add(ProgressBar3)
-        Controls.Add(ProgressBar2)
+        Controls.Add(pbBus3)
+        Controls.Add(pbBus2)
         Controls.Add(pbBus1)
         Controls.Add(lblBus3)
         Controls.Add(lblBus2)
         Controls.Add(lblBus1)
         Controls.Add(lblTitulo)
+        Margin = New Padding(2, 2, 2, 2)
         Name = "FrmBuses"
         Text = "Carrera de Buses Managua - Estelí"
         ResumeLayout(False)
@@ -190,8 +204,8 @@ Partial Class FrmBuses
     Friend WithEvents lblBus2 As Label
     Friend WithEvents lblBus3 As Label
     Friend WithEvents pbBus1 As ProgressBar
-    Friend WithEvents ProgressBar2 As ProgressBar
-    Friend WithEvents ProgressBar3 As ProgressBar
+    Friend WithEvents pbBus2 As ProgressBar
+    Friend WithEvents pbBus3 As ProgressBar
     Friend WithEvents lblEstado1 As Label
     Friend WithEvents lblEstado2 As Label
     Friend WithEvents lblEstado3 As Label
