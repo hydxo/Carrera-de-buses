@@ -42,80 +42,89 @@ Partial Class Form1
         ' lblTitulo
         ' 
         lblTitulo.AutoSize = True
-        lblTitulo.Font = New Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblTitulo.Font = New Font("Segoe UI Black", 14F, FontStyle.Bold)
         lblTitulo.ForeColor = Color.DarkBlue
-        lblTitulo.Location = New Point(18, 14)
+        lblTitulo.Location = New Point(18, 16)
         lblTitulo.Margin = New Padding(2, 0, 2, 0)
         lblTitulo.Name = "lblTitulo"
-        lblTitulo.Size = New Size(164, 15)
+        lblTitulo.Size = New Size(257, 25)
         lblTitulo.TabIndex = 0
         lblTitulo.Text = "Managua → Estelí · 150 km"
         ' 
         ' lblBus1
         ' 
         lblBus1.AutoSize = True
-        lblBus1.Location = New Point(41, 44)
+        lblBus1.Font = New Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblBus1.ForeColor = Color.MidnightBlue
+        lblBus1.Location = New Point(18, 75)
         lblBus1.Margin = New Padding(2, 0, 2, 0)
         lblBus1.Name = "lblBus1"
-        lblBus1.Size = New Size(35, 15)
+        lblBus1.Size = New Size(48, 20)
         lblBus1.TabIndex = 1
         lblBus1.Text = "Bus 1"
         ' 
         ' lblBus2
         ' 
         lblBus2.AutoSize = True
-        lblBus2.Location = New Point(41, 101)
+        lblBus2.Font = New Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblBus2.ForeColor = Color.MidnightBlue
+        lblBus2.Location = New Point(18, 150)
         lblBus2.Margin = New Padding(2, 0, 2, 0)
         lblBus2.Name = "lblBus2"
-        lblBus2.Size = New Size(35, 15)
+        lblBus2.Size = New Size(48, 20)
         lblBus2.TabIndex = 2
         lblBus2.Text = "Bus 2"
         ' 
         ' lblBus3
         ' 
         lblBus3.AutoSize = True
-        lblBus3.Location = New Point(41, 160)
+        lblBus3.Font = New Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblBus3.ForeColor = Color.MidnightBlue
+        lblBus3.Location = New Point(18, 223)
         lblBus3.Margin = New Padding(2, 0, 2, 0)
         lblBus3.Name = "lblBus3"
-        lblBus3.Size = New Size(35, 15)
+        lblBus3.Size = New Size(48, 20)
         lblBus3.TabIndex = 3
         lblBus3.Text = "Bus 3"
         ' 
         ' pbBus1
         ' 
-        pbBus1.Location = New Point(41, 61)
-        pbBus1.Margin = New Padding(2, 2, 2, 2)
+        pbBus1.ForeColor = Color.RoyalBlue
+        pbBus1.Location = New Point(18, 109)
+        pbBus1.Margin = New Padding(2)
         pbBus1.Maximum = 150
         pbBus1.Name = "pbBus1"
-        pbBus1.Size = New Size(312, 20)
+        pbBus1.Size = New Size(312, 23)
         pbBus1.TabIndex = 4
         ' 
         ' pbBus2
         ' 
-        pbBus2.Location = New Point(41, 118)
-        pbBus2.Margin = New Padding(2, 2, 2, 2)
+        pbBus2.ForeColor = Color.RoyalBlue
+        pbBus2.Location = New Point(18, 181)
+        pbBus2.Margin = New Padding(2)
         pbBus2.Maximum = 150
         pbBus2.Name = "pbBus2"
-        pbBus2.Size = New Size(312, 20)
+        pbBus2.Size = New Size(312, 23)
         pbBus2.TabIndex = 4
         ' 
         ' pbBus3
         ' 
-        pbBus3.Location = New Point(41, 177)
-        pbBus3.Margin = New Padding(2, 2, 2, 2)
+        pbBus3.ForeColor = Color.RoyalBlue
+        pbBus3.Location = New Point(18, 258)
+        pbBus3.Margin = New Padding(2)
         pbBus3.Maximum = 150
         pbBus3.Name = "pbBus3"
-        pbBus3.Size = New Size(312, 20)
+        pbBus3.Size = New Size(312, 23)
         pbBus3.TabIndex = 6
         ' 
         ' lblEstado1
         ' 
         lblEstado1.AutoSize = True
         lblEstado1.Enabled = False
-        lblEstado1.Location = New Point(377, 66)
+        lblEstado1.Location = New Point(362, 109)
         lblEstado1.Margin = New Padding(2, 0, 2, 0)
         lblEstado1.Name = "lblEstado1"
-        lblEstado1.Size = New Size(150, 15)
+        lblEstado1.Size = New Size(172, 19)
         lblEstado1.TabIndex = 7
         lblEstado1.Text = "Background, WaitSleepJoin"
         ' 
@@ -123,10 +132,10 @@ Partial Class Form1
         ' 
         lblEstado2.AutoSize = True
         lblEstado2.Enabled = False
-        lblEstado2.Location = New Point(377, 123)
+        lblEstado2.Location = New Point(362, 181)
         lblEstado2.Margin = New Padding(2, 0, 2, 0)
         lblEstado2.Name = "lblEstado2"
-        lblEstado2.Size = New Size(150, 15)
+        lblEstado2.Size = New Size(172, 19)
         lblEstado2.TabIndex = 8
         lblEstado2.Text = "Background, WaitSleepJoin"
         ' 
@@ -134,31 +143,35 @@ Partial Class Form1
         ' 
         lblEstado3.AutoSize = True
         lblEstado3.Enabled = False
-        lblEstado3.Location = New Point(377, 182)
+        lblEstado3.Location = New Point(362, 262)
         lblEstado3.Margin = New Padding(2, 0, 2, 0)
         lblEstado3.Name = "lblEstado3"
-        lblEstado3.Size = New Size(71, 15)
+        lblEstado3.Size = New Size(82, 19)
         lblEstado3.TabIndex = 9
         lblEstado3.Text = "Background"
         ' 
         ' lblGanador
         ' 
         lblGanador.AutoSize = True
-        lblGanador.Location = New Point(232, 252)
+        lblGanador.Font = New Font("Segoe UI Black", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblGanador.ForeColor = SystemColors.HotTrack
+        lblGanador.Location = New Point(51, 302)
         lblGanador.Margin = New Padding(2, 0, 2, 0)
         lblGanador.Name = "lblGanador"
-        lblGanador.Size = New Size(70, 15)
+        lblGanador.Size = New Size(86, 21)
         lblGanador.TabIndex = 10
-        lblGanador.Text = "Ganador: —"
+        lblGanador.Text = "Ganador: "
         lblGanador.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' btnIniciar
         ' 
-        btnIniciar.BackColor = SystemColors.GradientActiveCaption
-        btnIniciar.Location = New Point(361, 301)
-        btnIniciar.Margin = New Padding(2, 2, 2, 2)
+        btnIniciar.BackColor = Color.MediumBlue
+        btnIniciar.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnIniciar.ForeColor = SystemColors.ButtonHighlight
+        btnIniciar.Location = New Point(361, 341)
+        btnIniciar.Margin = New Padding(2)
         btnIniciar.Name = "btnIniciar"
-        btnIniciar.Size = New Size(90, 31)
+        btnIniciar.Size = New Size(90, 35)
         btnIniciar.TabIndex = 11
         btnIniciar.Text = "Iniciar carrera"
         btnIniciar.UseVisualStyleBackColor = False
@@ -166,19 +179,25 @@ Partial Class Form1
         ' btnSalir
         ' 
         btnSalir.BackColor = Color.LightCoral
-        btnSalir.Location = New Point(456, 301)
-        btnSalir.Margin = New Padding(2, 2, 2, 2)
+        btnSalir.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnSalir.ForeColor = SystemColors.ButtonHighlight
+        btnSalir.Location = New Point(456, 341)
+        btnSalir.Margin = New Padding(2)
         btnSalir.Name = "btnSalir"
-        btnSalir.Size = New Size(78, 31)
+        btnSalir.Size = New Size(78, 35)
         btnSalir.TabIndex = 12
         btnSalir.Text = "Salir"
         btnSalir.UseVisualStyleBackColor = False
         ' 
-        ' FrmBuses
+        ' tmrEstados
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        ' 
+        ' Form1
+        ' 
+        AutoScaleDimensions = New SizeF(7F, 17F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(564, 343)
+        BackColor = SystemColors.InactiveCaption
+        ClientSize = New Size(564, 389)
         Controls.Add(btnSalir)
         Controls.Add(btnIniciar)
         Controls.Add(lblGanador)
@@ -192,8 +211,10 @@ Partial Class Form1
         Controls.Add(lblBus2)
         Controls.Add(lblBus1)
         Controls.Add(lblTitulo)
-        Margin = New Padding(2, 2, 2, 2)
-        Name = "FrmBuses"
+        Font = New Font("Segoe UI", 10F)
+        Margin = New Padding(2)
+        Name = "Form1"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "Carrera de Buses Managua - Estelí"
         ResumeLayout(False)
         PerformLayout()
