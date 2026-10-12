@@ -222,4 +222,7 @@ Public Class Form1
 
     End Sub
 
+    Private Sub lblEstado1_Click(sender As Object, e As EventArgs) Handles lblEstado1.Click
+
+    End Sub
 End Class
